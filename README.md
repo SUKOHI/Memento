@@ -3,17 +3,27 @@ A PHP package mainly developed for Laravel to check result using boolean value.
 (This is for Laravel 4.2. [For Laravel 5](https://github.com/SUKOHI/Memento))
 
 
-Installation&setting for Laravel
+Installation
 ====
 
-After installation using composer, add the followings to the array in  app/config/app.php
+Add this package name in composer.json
+
+    "require": {
+      "sukohi/memento": "1.*"
+    }
+
+Execute composer command.
+
+    composer update
+
+Register the service provider in app.php
 
     'providers' => array(  
         ...Others...,  
         'Sukohi\Memento\MementoServiceProvider',
     )
 
-Also
+Also alias
 
     'aliases' => array(  
         ...Others...,  
