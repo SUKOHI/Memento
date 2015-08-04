@@ -1,5 +1,7 @@
 # Memento
-A PHP package mainly developed for Laravel to check result using boolean value.
+A PHP package mainly developed for Laravel to check result using boolean value.  
+(This is for Laravel 4.2. [For Laravel 5](https://github.com/SUKOHI/Memento))
+
 
 Installation&setting for Laravel
 ====
