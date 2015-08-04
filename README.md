@@ -9,7 +9,7 @@ Installation
 Add this package name in composer.json
 
     "require": {
-      "sukohi/memento": "dev-master"
+      "sukohi/memento": "2.*"
     }
 
 Execute composer command.
