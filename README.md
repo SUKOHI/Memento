@@ -20,14 +20,14 @@ Register the service provider in app.php
 
     'providers' => array(  
         ...Others...,  
-        'Sukohi\Memento\MementoServiceProvider',
+        Sukohi\Memento\MementoServiceProvider::class,
     )
 
 Also alias
 
     'aliases' => array(  
         ...Others...,  
-        'Memento' => 'Sukohi\Memento\Facades\Memento',
+        'Memento'   => Sukohi\Memento\Facades\Memento::class
     )
 
 Usage
